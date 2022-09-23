@@ -1,84 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Department Website Design</title>
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;
-  700&display=swap"> 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
-integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
-crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/fontawesome/4.7.0/css/fontawesome.min.css">
-<link rel="stylesheet" href="https://fontawesome.com/v4/icon/">
-    <title>BUP ICT</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;
+      700&display=swap"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/fontawesome/4.7.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://fontawesome.com/v4/icon/">
 </head>
-<body>
-  
-        <a href="https://bup.edu.bd/" target="_blank">
-            <img src="images/bupim.png" height="80px" width="100px" align="left"></a>
 
+  <body>
+    <section class="header">
       <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-          <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo">Department of ICT</label>
-        <ul>
-          <li><a class="active" href="#">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">People</a>
-            <div class="sub-menu-l">
-            <ul> 
-             <li><a href="">Faculties</a></li>
-             <li><a href="">Leadership</a></li>
-             <li><a href="">Staff</a></li>
-            </ul>
-         </div></li>
-          <li><a href="">Academics</a>
-            <div class="sub-menu-l">
-              <ul> 
-               <li><a href="">Undergraduate</a></li>
-               <li><a href="">Postgraduate</a></li>
-              </ul>
-           </div></li>
-          <li><a href="">Research</a>
-            <div class="sub-menu-l">
-              <ul> 
-               <li><a href="">Research Areas</a></li>
-               <li><a href="">Publications</a></li>
-               <li><a href="">Thesis</a></li>
-              </ul>
-           </div></li>
-          <li><a href="">Community</a>
-            <div class="sub-menu-l">
-              <ul> 
-               <li><a href="">BUP InfoTech Club</a></li>
-               <li><a href="">BUP Robotics Club</a></li>
-               <li><a href="">BUP IEEE Student Branch</a></li>
-               <li><a href="">BUP Alumni</a></li>
-              </ul>
-           </div></li>
-          <li><a href="">News & Events</a>
-            <div class="sub-menu-l">
-              <ul> 
-               <li><a href="">News</a></li>
-               <li><a href="">Events</a></li>
-              </ul>
-           </div></li>
-        </ul>
+        <a href="https://bup.edu.bd/" ><img src="images/bupim.png"></a>
+
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#footer">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="#">PEOPLE</a></li>
+            <li><a href="#academics">ACADEMICS</a></li>
+            <li><a href="#research">RESEARCH</a></li>
+            <li><a href="#">COMMUNITY</a></li>
+            <li><a href="">NEWS & EVENTS</a></li>
+            <li><a href="#cta">CONTACT</a></li>
+          </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
       </nav>
-      <section>
 
-      </section>
-  
+      <div class="text-box">
+        <h1><pre>          Department of </pre>
+          Information and Communication Technology</h1>
+        <p>Making website is now one of the easiest thing in the world.
+          You just need to learn HTML,CSS,<br>JavaScript and you are good to go.
+        </p>
+        <a href="" class="hero-btn">Visit Us to Know more</a>
+      </div>
+    </section>
 
-</body>
+<!-- People -->
+
+<section class="people" id="people">
+
+</section>
+
+<!-- Academics -->
+
+<section class="academics" id="academics">
+  <h1>Courses We Offer</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+    optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+    obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+    nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+    tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+    quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
+    sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+    recusandae alias error harum maxime adipisci amet laborum. 
+    </p>
+
+  <div class="row">
+    <div class="academics-col">
+      <h3>Undergraduate</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+        optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+        obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+        nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+        tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+        quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
+        sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+        recusandae alias error harum maxime adipisci amet laborum. </p>
+    </div>
+
+    <div class="academics-col">
+      <h3>Graduate</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+        optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+        obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+        nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+        tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+        quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
+        sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+        recusandae alias error harum maxime adipisci amet laborum. </p>
+    </div>
+
+    <div class="academics-col">
+      <h3>Post Graduation</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+        optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+        obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+        nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+        tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+        quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
+        sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+        recusandae alias error harum maxime adipisci amet laborum. </p>
+    </div>
+  </div>
+
+</section>
+
+<!-- -------- Facilities -------- -->
+<section class="facilities">
+  <h1> Our Facilities</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+    optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+    obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+    nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+    tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+    quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
+    sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+    recusandae alias error harum maxime adipisci amet laborum. </p>
+
+  <div class="row">
+    <div class="facilities-col">
+      <img src="images/library.png" >
+          <h3>World Class Library</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+            obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+            nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+            tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+            quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
+            sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+            recusandae alias error harum maxime adipisci amet laborum. </p>
+    </div>
+
+    <div class="facilities-col">
+      <img src="images/basketball.png" >
+          <h3>Largest Play Ground</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+            obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+            nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+            tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+            quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
+            sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+            recusandae alias error harum maxime adipisci amet laborum. </p>
+    </div>
+
+    <div class="facilities-col">
+      <img src="images/cafeteria.png" >
+          <h3>Tasty and Healthy</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+            molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+            numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+            optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+            obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+            nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+            tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+            quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
+            sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+            recusandae alias error harum maxime adipisci amet laborum. </p>
+    </div>
+  </div>
+</section>
+
+<!-- -------- Research -------- -->
+<section class="research" id="research">
+  <h1> Our Research Areas</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+    optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+    obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+    nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+    tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+    quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
+    sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+    recusandae alias error harum maxime adipisci amet laborum. </p>
+
+  <div class="row">
+    <div class="research-col">
+      <img src="images/ai&ml.png" width="502px" height="550px">
+      <div class="layer">
+          <h3>Artificial Intelligence & Machine Learning</h3>
+      </div>
+    </div>
+    <div class="research-col">
+      <img src="images/communication.png" width="502px" height="550px">
+      <div class="layer">
+          <h3>Communication</h3>
+      </div>
+    </div>
+    <div class="research-col">
+      <img src="images/cyber.png" width="502px" height="550px">
+      <div class="layer">
+          <h3>Cyber Security</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Community -->
+
+<section class="community" id="community">
+
+</section>
+
+<!-- News & Events -->
+
+<section class="n&e" id="n&e">
+
+</section>
+
+  <!-- -------- Testimonials -------- -->
+<section class="testimonials" id="blog">
+  <h1> What Our Students Say</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+    optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+    obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+    nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+    tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+    quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
+    sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+    recusandae alias error harum maxime adipisci amet laborum. </p>
+
+  <div class="row">
+    <div class="testimonial-col">
+      <img src="images/user1.jpg" alt="user1" >
+      <div></div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+        optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+        obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+        nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+        tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+        quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
+        sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+        recusandae alias error harum maxime adipisci amet laborum. </p>
+      <h3>Marielene Monor</h3>
+      <i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-o"></i>
+    </div>
+    <div class="testimonial-col">
+      <img src="images/user2.jpg" alt="user1" >
+      <div></div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+        optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+        obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+        nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+        tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+        quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
+        sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+        recusandae alias error harum maxime adipisci amet laborum. </p>
+      <h3>Danial Stone</h3>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star-o"></i>
+    </div>
+  </div>
+</section>
+
+<!-- -------- Call To Action -------- -->
+
+<section class="cta" id="cta">
+  <h1> Enroll For Our Various Online Courses<br> Anywhere From The World</h1>
+  <a href="contact.html" class="hero-btn">Contact Us</a>
+</section>
+
+<!-- -------- Footer -------- -->
+
+<section class="footer" id="footer">
+  <h4> About Us </h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+    optio, eaque rerum! Provident similique accusantium nemo autem.<br> Veritatis
+    obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+    nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+    tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit,
+    quia. Quo neque error repudiandae fuga? Ipsa laudantium molestias eos 
+    sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
+    recusandae alias error harum maxime adipisci amet laborum. </p>
+  <div class="icons">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-square-instagram"></i>
+    <i class="fa-brands fa-linkedin-in"></i>
+  </div>
+</section>
+
+<!-- JavaScript for  Toggle Menu -->
+<script>
+
+  var navLinks=document.getElementById("nav-links");
+  function showMenu() {
+    navLinks.style.right="0";
+  }
+  function hideMenu() {
+    navLinks.style.right="-200px";
+  }
+</script>
+
+
+
+
+
+
+  </body>
 </html>
-  
 
-</body>
-</html>
