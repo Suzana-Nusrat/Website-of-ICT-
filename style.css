@@ -9,8 +9,8 @@
 .header {
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url(images/backg.jpg);
+  background-image: linear-gradient(rgba(10, 18, 49, 0.7), rgba(4, 9, 30, 0.7)),
+    url(images/backg.png);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -62,7 +62,7 @@ nav a img{
   width: 90%;
   color: #fff;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -167,6 +167,43 @@ p {
   cursor: pointer;
   transition: 0.5s;
 }
+.card{
+  width: 350px;
+  height: 250px;
+  margin: auto;
+  perspective: 1000px;
+  cursor: pointer;
+}
+.inner-box{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 10px;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+.card-front, .card-back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+.card-back{
+  background: transparent;
+  transform: rotateX(180deg);
+}
+.card:hover .inner-box{
+    transform: rotateX(-180deg);
+}
+.card-back p{
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  color: rgb(35, 10, 173);
+  padding-bottom: 10px;
+}
 h3 {
   text-align: center;
   font-weight: 600;
@@ -250,6 +287,7 @@ h3 {
   border-radius: 10px;
   display: block;
 }
+
 .facilities-col p {
   padding: 0;
 }
@@ -257,6 +295,21 @@ h3 {
   margin-top: 16px;
   margin-bottom: 15px;
   text-align: left;
+}
+
+/* ----- Community ------- */
+
+.nav-links ul li ul{
+  position: absolute;
+  left: 0;
+  text-align: left;
+  width: 200px;
+  background: transparent;
+  display: none;
+}
+.nav-links ul li:hover > ul {
+  margin-top: 20px;
+  display: initial;
 }
 
 /* ----- Testimonials ------- */
@@ -268,7 +321,7 @@ h3 {
   padding-top: 100px;
 }
 .testimonial-col {
-  flex-basis: 44%;
+  flex-basis: 40%;
   border-radius: 10px;
   margin-bottom: 5%;
   text-align: left;
