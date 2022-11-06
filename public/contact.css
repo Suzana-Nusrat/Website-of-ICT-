@@ -1,0 +1,30 @@
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: left;
+    font-family: sans-serif;
+}
+form {
+    border: transparent;
+    background: transparent;
+    padding: 40px 50px 45px;
+}
+.form-control:focus {
+    border-color: rgb(37, 36, 36);
+    box-shadow: 0 0 17px #333;
+}
+label {
+    font-weight: 600;
+}
+.error {
+    color: red;
+    font-weight: 400;
+    display: block;
+    padding: 6px 0;
+    font-size: 14px;
+}
+.form-control.error {
+    border-color: red;
+    padding: .375rem .75rem;
+}
